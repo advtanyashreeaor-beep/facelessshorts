@@ -1,0 +1,121 @@
+{
+  "id": "short-13-contract",
+  "title": "No Paper, No Contract? (Legal Myths #1)",
+  "composition": "Short13Contract",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 43
+  },
+  "voiceStatus": "estimated",
+  "voicePlan": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "This handshake is a contract. No paper needed.",
+      "start": 0.4,
+      "end": 3.3
+    },
+    {
+      "beat": "setup",
+      "text": "Most people think if it's not in writing, it's not a contract.",
+      "start": 4.0,
+      "end": 8.4
+    },
+    {
+      "beat": "setup",
+      "text": "You sell your bike for fifty thousand. Just a handshake.",
+      "start": 9.0,
+      "end": 12.6
+    },
+    {
+      "beat": "quiz",
+      "text": "Pause. Can the buyer walk away?",
+      "start": 13.2,
+      "end": 15.6
+    },
+    {
+      "beat": "reveal",
+      "text": "Under Section ten of the Indian Contract Act, writing isn't required.",
+      "start": 17.4,
+      "end": 21.5
+    },
+    {
+      "beat": "reveal",
+      "text": "Free consent. Competent parties. Lawful consideration. Lawful object.",
+      "start": 22.2,
+      "end": 26.0
+    },
+    {
+      "beat": "reveal",
+      "text": "Tick those boxes, and a spoken deal binds both sides.",
+      "start": 26.6,
+      "end": 30.2
+    },
+    {
+      "beat": "exception",
+      "text": "The exception? Selling land needs a registered deed.",
+      "start": 30.9,
+      "end": 33.9
+    },
+    {
+      "beat": "twist",
+      "text": "But valid isn't provable. One WhatsApp confirming the deal — that's your paper.",
+      "start": 34.5,
+      "end": 39.0
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 3.4
+    },
+    {
+      "id": "setup",
+      "start": 3.4,
+      "end": 13.0
+    },
+    {
+      "id": "quiz",
+      "start": 13.0,
+      "end": 17.0
+    },
+    {
+      "id": "reveal",
+      "start": 17.0,
+      "end": 30.5
+    },
+    {
+      "id": "exception",
+      "start": 30.5,
+      "end": 34.0
+    },
+    {
+      "id": "twist",
+      "start": 34.0,
+      "end": 40.4
+    },
+    {
+      "id": "loop",
+      "start": 40.4,
+      "end": 43.0
+    }
+  ],
+  "niche": {
+    "jurisdiction": "India",
+    "law": [
+      {
+        "cite": "Indian Contract Act 1872, s.10",
+        "shown_at": 17.9,
+        "claim": "Agreements made by free consent of competent parties, for lawful consideration and object, not expressly declared void, are contracts; writing only where another law requires it."
+      },
+      {
+        "cite": "Transfer of Property Act 1882, s.54",
+        "shown_at": 31.9,
+        "claim": "Sale of tangible immovable property of value Rs.100 or upwards can be made only by a registered instrument."
+      }
+    ]
+  }
+}

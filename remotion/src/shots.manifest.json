@@ -40,6 +40,14 @@
   "transparent": false
  },
  {
+  "id": "Short13Contract",
+  "durationInSeconds": 43,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short2Math",
   "durationInSeconds": 42,
   "fps": 30,

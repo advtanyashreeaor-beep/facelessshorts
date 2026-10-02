@@ -1,0 +1,40 @@
+{
+  "master": "remotion/out/Short13Contract.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/Short13Contract.mp4",
+    "out": "shorts/short-13-contract/output/short-13-sfx.mp4",
+    "end_s": 43,
+    "duck": true
+  },
+  "note": "Library-first: every cue is an existing clip. Times are the composition's word-derived cues on the ESTIMATED VO. After gen_voice.py writes real word times, re-derive them (the cue table prints from out/stress/short13.mjs) and point preview at Short13Contract-voiced.mp4. Stamps land ~6f after their cue (1.7→1 scale-in), ticks ~3f.",
+  "events": [
+    { "at_s": 0.00,  "sfx_id": "impact-soft",      "gain_db": -11, "optional": true, "shot": "hook", "cue": "frame-0 punch-in settles (1.06 -> 1)" },
+
+    { "at_s": 7.97,  "sfx_id": "pencil-scribble",  "gain_db": -10, "shot": "setup", "cue": "strike-through sweeps across the myth, on 'contract' (+6f)" },
+    { "at_s": 9.90,  "sfx_id": "whoosh-soft",      "gain_db": -12, "optional": true, "shot": "setup", "cue": "myth clears, bike badge enters on 'bike'" },
+    { "at_s": 10.50, "sfx_id": "pop-reveal",       "gain_db": -10, "shot": "setup", "cue": "₹50,000 lands on 'fifty'" },
+
+    { "at_s": 13.10, "sfx_id": "pop-reveal",       "gain_db": -10, "shot": "quiz", "cue": "PauseCard enters on 'Pause.'" },
+    { "at_s": 13.40, "sfx_id": "clock-tick-soft",  "gain_db": -14, "optional": true, "shot": "quiz", "cue": "countdown ring runs" },
+
+    { "at_s": 17.77, "sfx_id": "page-flip",        "gain_db": -10, "shot": "reveal", "cue": "§10 Indian Contract Act chip arrives on 'Section'" },
+    { "at_s": 22.30, "sfx_id": "ui-click-soft",    "gain_db": -9,  "shot": "reveal", "cue": "tick 1 — 'Free consent'" },
+    { "at_s": 23.07, "sfx_id": "ui-click-soft",    "gain_db": -9,  "shot": "reveal", "cue": "tick 2 — 'Competent parties'" },
+    { "at_s": 24.50, "sfx_id": "ui-click-soft",    "gain_db": -9,  "shot": "reveal", "cue": "tick 3 — 'Lawful consideration'" },
+    { "at_s": 25.70, "sfx_id": "ui-click-soft",    "gain_db": -9,  "shot": "reveal", "cue": "tick 4 — 'Lawful object'" },
+    { "at_s": 27.43, "sfx_id": "chime-reward",     "gain_db": -11, "shot": "reveal", "cue": "tick 5 — all boxes ticked, on 'boxes'" },
+    { "at_s": 28.50, "sfx_id": "riser-soft",       "gain_db": -12, "shot": "reveal", "cue": "build under 'a spoken deal…'", "note": "HERO 1a — build" },
+    { "at_s": 29.27, "sfx_id": "stamp-hit",        "gain_db": -6,  "shot": "reveal", "cue": "BINDING stamp slams on 'binds' (+6f)", "note": "HERO 1b — the lesson lands" },
+
+    { "at_s": 30.50, "sfx_id": "whoosh-reverse",   "gain_db": -12, "optional": true, "shot": "exception", "cue": "scene turns to the exception" },
+    { "at_s": 32.17, "sfx_id": "knock-solid",      "gain_db": -10, "shot": "exception", "cue": "'Registered deed required' chip on 'land' — a firm, official knock" },
+
+    { "at_s": 36.13, "sfx_id": "ui-send",          "gain_db": -9,  "shot": "twist", "cue": "confirmation message slides in on 'WhatsApp' — diegetic" },
+    { "at_s": 36.93, "sfx_id": "ui-toggle-on",     "gain_db": -14, "optional": true, "shot": "twist", "cue": "ticks turn blue (read)" },
+    { "at_s": 38.83, "sfx_id": "stamp-hit",        "gain_db": -5,  "shot": "twist", "cue": "PROOF stamp on 'paper' (+6f)", "note": "HERO 2 — the takeaway; loudest cue" },
+
+    { "at_s": 40.40, "sfx_id": "whoosh-reverse",   "gain_db": -11, "shot": "loop", "cue": "dissolve back into the hook — the loop" }
+  ]
+}
