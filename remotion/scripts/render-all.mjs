@@ -55,6 +55,9 @@ for (const shot of manifest) {
       pixelFormat: transparent ? 'yuva444p10le' : 'yuv420p',
       imageFormat: transparent ? 'png' : 'jpeg',
       crf: transparent ? undefined : 18,
+      // bt709 = standard yuv420p TV-range HD output. Remotion's default here was yuvj420p
+      // full-range bt470bg, which some mobile players misread (crushed/washed blacks).
+      colorSpace: transparent ? undefined : 'bt709',
       onProgress: ({ progress }) => process.stdout.write(`\r  ${shot.id}: ${Math.round(progress * 100)}%   `),
     });
     process.stdout.write('\n');
